@@ -26,7 +26,7 @@ cloudinary.config({
 });
 
 app.use(cors({
-	origin: [""],
+	origin: ["https://insta-thread-clone-eta.vercel.app/auth/"],
 	methods: ["POST", "GET"],
 	credentials: true
 });
